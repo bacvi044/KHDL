@@ -12,7 +12,6 @@ I. Ý nghĩa các lệnh
 
    - melt chuyển từ rộng sang dài.
 
-
 6.  Hàm range (x) lấy số từ 0 đến n ( n là số ngay trước x ).
 
 7. -  How = inner chỉ giữ cái nào chung của cả 2
@@ -91,6 +90,12 @@ I. Ý nghĩa các lệnh
 
 30. Sum() và mean() có axis=1 dùng để tính toán theo chiều ngang ( từng hàng )
 
+31. lệnh kiểm tra dữ liệu biến x là type.(x)
+
+32. xem 5 dòng đầu tiên dùng df.head().
+
+33.  
+
 II. ý nghĩa và công việc các bước/ thuật toán.
 
 1. Làm sạch dữ liệu:
@@ -98,11 +103,13 @@ II. ý nghĩa và công việc các bước/ thuật toán.
 
 2. KNN (K-Nearest Neighbors) là tìm hàng xóm gần nhất mà giống với cái cần tìm => rất chậm
 
-3. Phân tích dữ liệu giúp cung cấp thông tin sơ bộ (insight) định hình cho hướng đi đúng của dự án.
+   - tính means = giá trị trung bình cộng của K
 
-4. Triển khai mô hình gồm đưa mô hình vào môi trường thực tế và phục vụ nghiệp vụ.
+4. Phân tích dữ liệu giúp cung cấp thông tin sơ bộ (insight) định hình cho hướng đi đúng của dự án.
 
-5. Phân biệt các bài toán:
+5. Triển khai mô hình gồm đưa mô hình vào môi trường thực tế và phục vụ nghiệp vụ.
+
+6. Phân biệt các bài toán:
 
    - Phân loại: khi cần dự đoán một nhãn dán, danh mục.
   
@@ -112,11 +119,21 @@ II. ý nghĩa và công việc các bước/ thuật toán.
   
    - Học củng cố: cho tự học, đạt thì thưởng (reward), không đạt thì phạt (penalty).
 
-6
+6. Các yếu tố trong một bài toán phân loại (classicfication) accuracy, precission, recall, f1-score.
+
+7. hiển thị biểu đồ trực tiếp trong notebook jupyter %matplotlib inline
+
+8.
 III. NOTE.
 
 1. Trong python việc đánh số luôn bắt đầu từ 0.
 
 2. Khi đọc dữ liệu mà không có thì ô đó auto hiện NaN
 
-3. 
+3. MSE hiếm khi bằng 0 do thực tế dữ liệu luôn có nhiễu và không bao giờ nằm bảng tuyệt đối.
+
+4. nếu không có tiêu đề thì header = none.
+
+5. linear regression nhạy cảm với dữ liệu ngoại lại do dùng bình phương sai số (mse) => dl sai phóng đại cấp số nhân.
+
+6. set trong python không cho phần tử trùng 
