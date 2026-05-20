@@ -156,7 +156,10 @@ II. ý nghĩa và công việc các bước/ thuật toán.
   
    - panel: 3 chiều
   
-   - index: hệ thống dán nhãn định 
+   - index: hệ thống dán nhãn định
+
+10. OPENPYXL dùng chung với pandas để làm việc file xlxs.
+
 III. NOTE.
 
 1. Trong python việc đánh số luôn bắt đầu từ 0.
